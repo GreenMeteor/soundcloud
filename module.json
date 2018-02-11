@@ -1,0 +1,10 @@
+{
+    "id": "soundcloud",
+    "name": "Soundcloud",
+    "description": "Adds a Soundcloud music widget to your HumHub`s sidebar.",
+    "keywords": ["soundcloud"],
+    "version": "1.0.0",
+    "humhub": {
+    "minVersion": "1.1"
+    }
+}

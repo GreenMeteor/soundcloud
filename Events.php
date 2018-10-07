@@ -27,8 +27,8 @@ public static function addSoundcloudFrame($event)
         if (Yii::$app->user->isGuest) {
             return;
         }
-        $event->sender->view->registerAssetBundle(Assets::className());
-        $event->sender->addWidget(SoundcloudFrame::className(), [], [
+        $event->sender->view->registerAssetBundle(Assets::class);
+        $event->sender->addWidget(SoundcloudFrame::class, [], [
             'sortOrder' => Setting::Get('timeout', 'soundcloud')
         ]);
     }
